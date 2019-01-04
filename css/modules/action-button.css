@@ -1,0 +1,30 @@
+/* Action button */
+.action-button {
+    justify-self: end;
+    display: flex;
+    height: 40px;
+    background-color: #B9BF0A;
+}
+    .action-button__main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 120px;
+        padding: 0 20px;
+        font-size: 16px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .action-button__dropdown {
+        width: 30px;
+        background: center no-repeat url('data:image/svg+xml;utf8,<svg width="10" height="5" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4L8 0H0L4 4Z" fill="%23FFFFFF"/></svg>');
+    }
+
+    .action-button__main:hover, .action-button__dropdown:hover {
+        background-color: #888c07;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+
