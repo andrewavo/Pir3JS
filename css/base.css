@@ -36,6 +36,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* button reset */
 button {
     padding: 0;
     border: none;
